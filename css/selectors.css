@@ -1,0 +1,45 @@
+body {
+   background-color: #ffebcd;
+}
+
+.login-div {
+   padding: 15px;
+   border: solid 1px #c0c0c0;
+   box-shadow: 0 0 2px;
+   display: inline-block;
+}
+
+.login-div input {
+   margin-bottom: 7px;
+   padding: 3px;
+}
+
+input[class*="control"] {
+   display: block;
+}
+input[class^="blue"] {
+   border: solid 2px #8a2be2;
+}
+input[class$="red"] {
+   border: solid 2px #aa2222;
+}
+
+.login-div button:hover {
+   box-shadow: 0 0 3px;
+}
+
+.login-div input:focus {
+   box-shadow: 2px 2px 3px;
+   border: none;
+}
+
+ul li:last-child {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-decoration: underline;
+}
+ul li:first-child {
+   color: #ff0000;
+}
+ul li:nth-child(2) {
+   color: #8a2be2;
+}
